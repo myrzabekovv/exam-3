@@ -1,0 +1,76 @@
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  max-width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.buy-coin > a {
+  text-decoration: none;
+}
+
+.buy-coin > a:hover {
+  color: 
+  #3C3C3C;
+}
+
+.buy-coin > a:active {
+  color: 
+  #8BB47D;
+}
+
+
+.green-ball {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #8BB47D;
+}
+
+.online {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 39px;
+}
+
+.logo > span {
+  font-weight: 500;
+  font-size: 28px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.buy-coin {
+  display: flex;
+  flex-direction: column;
+}
+
+.buy-coin > p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header-right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+@media screen and (max-width: 440px) {
+  .logo > span {
+    display: none;
+  }
+  .header-inner {
+    gap: 16px;
+  }
+}
