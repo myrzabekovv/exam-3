@@ -31,23 +31,27 @@
   color: #8BB47D;
 }
 
-@media screen and (max-width: 721px) {
+@media screen and (max-width: 821px) {
   .footer {
     min-height: 250px;
+    gap: 20%;
   }
   .logo-footer-text {
     gap: 23px;
     flex-direction: column;
-    margin-left: 90px;
+    /* margin-left: 90px; */
   }
 }
 
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 600px) {
   .footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 23px;
     min-height: 332px;
+  }
+  .logo-footer-text {
+    width: 155px;
   }
 }
 
@@ -55,6 +59,5 @@
   .logo-footer-text {
     margin-left: 0;
     max-width: 720px;
-    width: 0;
   }
 }
