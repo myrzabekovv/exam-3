@@ -247,9 +247,9 @@
     max-width: 100% !important; 
     margin: 0 auto;
   }
-  .main > span {
-    margin-left: 80px;
-  }
+  /* .main-inner > span {
+    margin-left: px;
+  } */
 }
 
 @media screen and (max-width: 952px) {
@@ -264,6 +264,9 @@
   }
   .orange-button, .green-button, .blue-button, .grey-button {
     width: 80%;
+  }
+  .main-inner > span {
+    padding: 16px;
   }
 }
 
