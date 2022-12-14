@@ -15,6 +15,14 @@
   width: 720px;
 }
 
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:active {
+  color: #8BB47D;
+}
+
 .footer > span {
   font-size: 12px;
   color:#989898 ;
